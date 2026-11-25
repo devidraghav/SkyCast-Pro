@@ -6,8 +6,7 @@ async function getWeather() {
 
     try {
 
-        const response =
-        await fetch(`http://localhost:5000/weather/${city}`);
+        const response = await fetch(`https://skycast-pro-z5en.onrender.com/weather/${city}`);
 
         const data = await response.json();
 
