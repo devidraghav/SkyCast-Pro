@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SkyCast Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+
+    <h1>☁ SkyCast Pro</h1>
+
+    <div class="search">
+        <input type="text" id="city" placeholder="Search City">
+        <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div id="weather" style="display:none;">
+        <img id="icon">
+
+        <h2 id="name"></h2>
+
+        <h1 id="temp"></h1>
+
+        <p id="condition"></p>
+
+        <div class="details">
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Wind: <span id="wind"></span></p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
